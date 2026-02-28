@@ -1,4 +1,4 @@
--- Schema for RetailIQ Database
+-- Schema for FinSight OCR Database
 -- Run this in the Supabase SQL Editor
 
 -- 1. Create Invoices Table

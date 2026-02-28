@@ -1,4 +1,4 @@
-# RetailIQ: Smart Store Analytics Hub
+# FinSight OCR: Smart Store Analytics Hub
 
 **One-line project description:** An AI app that helps local shop owners finally make sense of their supplier invoices to stock better and earn more.
 
@@ -15,7 +15,7 @@
 **Solution Strategy:** We realized the easiest way for a shop owner to digitize data is just taking a picture. So, our approach is to use AI to "read" the invoice image, automatically extract every line item, and then use a second layer of AI to look at that data and tell the owner exactly what they should do next (like "you're buying too much soap, but running out of rice").
 
 ## 3. Proposed Solution
-**Solution Overview:** We built RetailIQ. It’s a super simple web dashboard where a shop owner uploads a photo or PDF of their supplier bill. Behind the scenes, we use Gemini Vision to read it, save it, and instantly show charts of their best sellers and dead stock.
+**Solution Overview:** We built FinSight OCR. It’s a super simple web dashboard where a shop owner uploads a photo or PDF of their supplier bill. Behind the scenes, we use Gemini Vision to read it, save it, and instantly show charts of their best sellers and dead stock.
 **Core Idea:** Zero manual entry. Upload image -> Get business advice.
 **Key Features:**
 - **Auto-Extract:** Drop an invoice image, and we pull the product name, quantity, price, and supplier.
@@ -102,7 +102,7 @@ We originally tried using a dedicated open-source OCR model (vLLM with Nanonets)
 
 ## 11. End-to-End Workflow
 1. The shop owner takes a picture of a fresh bill from their distributor.
-2. They drag and drop it into the RetailIQ upload page.
+2. They drag and drop it into the FinSight OCR upload page.
 3. The Vite frontend sends it to FastAPI, which forwards it to Gemini Vision.
 4. Gemini reads the image, structuring it into neat data rows.
 5. The backend saves this right into Supabase.

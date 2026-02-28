@@ -107,7 +107,7 @@ export default function GenerateInvoice() {
             <div className="glass-card animate-in print-wrapper" id="print-section" style={{ background: 'var(--bg-secondary)', padding: 40, borderRadius: 'var(--radius-lg)' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '2px solid var(--border-glass)', paddingBottom: 20, marginBottom: 20 }}>
                     <div>
-                        <h2 style={{ fontSize: '1.8rem', margin: '0 0 8px', color: 'var(--accent-indigo)' }}>RETAILIQ STORE</h2>
+                        <h2 style={{ fontSize: '1.8rem', margin: '0 0 8px', color: 'var(--accent-indigo)' }}>FINSIGHT OCR STORE</h2>
                         <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.9rem' }}>123 Market Street, Business District</p>
                         <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.9rem' }}>GSTIN: 22AAAAA0000A1Z5</p>
                     </div>
